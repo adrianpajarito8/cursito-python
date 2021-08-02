@@ -36,3 +36,12 @@ Si el archivo está modificado pero NO agregado (sin add), podemos escribir
 También podemos ver las diferencias entre el archivo modificado y el del ultimo
     commit con "git diff nombrearchivo". las lineas con "-" son las borradas
     y las lineas con "+" son las agregadas.
+
+Podemos acceder al logs de commits escribiendo "git log" y veremos todos
+    los commits desde el ultimo hasta el primero, con sus autores y fecha
+    tambien nos dice en que rama o HEAD se hicieron los commit
+
+Si tenemos archivos o carpetas que no queremos que git vea o analice, como por ejemplo
+    para hacer pruebas o tests, debemos crear un archivo que se llame ".gitignore" en
+    la carpeta raiz. Abrimos este archivo y escribimos las direcciones que queremos
+    que git no analice.

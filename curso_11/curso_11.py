@@ -59,7 +59,7 @@ boton = Button(window,  # creamos un boton
                activeforeground="#FFFFFF",  # color fuente con click
                activebackground="black",  # color sombreado con click
                state=ACTIVE)  # tambien se puede agregar imagen y demas...
-boton.pack()  # se agrega el boton a la ventana window
+boton.pack()  # se agrega el boton a la ventana window 
 
 # ENTRY WIDGET
 

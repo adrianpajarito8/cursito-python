@@ -29,7 +29,10 @@ Ahora que el commit está hecho, el archivo está guardado y con una marca.
 Si modificamos algun archivo nos aparecerá nuevamente en la zona de espera
     para ser agregado (add) y commiteado (commit).
 
-Si el archivo está modificado pero no agregado, podemos escribir
+Si el archivo está modificado pero NO agregado (sin add), podemos escribir
     "git checkout -- nombrearchivo" y git nos borrará todos los cambios
     y nos dejará el archivo como fue commiteado la ultima vez
 
+También podemos ver las diferencias entre el archivo modificado y el del ultimo
+    commit con "git diff nombrearchivo". las lineas con "-" son las borradas
+    y las lineas con "+" son las agregadas.

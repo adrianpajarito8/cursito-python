@@ -24,8 +24,6 @@ Ahora hacemos un "git commit". En este momento se abre un editor de texto.
     hacer commit y que la rama master esta limpia.
 Sino podemos escribir git commit -m "Descripción del commit" (usar las comillas)
 
-gilada
-
 Ahora que el commit está hecho, el archivo está guardado y con una marca.
 Si modificamos algun archivo nos aparecerá nuevamente en la zona de espera
     para ser agregado (add) y commiteado (commit).
@@ -46,3 +44,7 @@ Si tenemos archivos o carpetas que no queremos que git vea o analice, como por e
     para hacer pruebas o tests, debemos crear un archivo que se llame ".gitignore" en
     la carpeta raiz. Abrimos este archivo y escribimos las direcciones que queremos
     que git no analice.
+
+Si queremos desarrollar una version alternativa del programa podemos crear una nueva rama
+    en donde todo lo que hagamos no modificará a la rama inicial. Escribiendo "git branch"
+    veremos una lista de las ramas y en cual estamos actualmente

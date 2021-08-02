@@ -53,10 +53,14 @@ Si queremos desarrollar una version alternativa del programa podemos crear una n
 
 Para subir nuestro proyecto, logs y braches a Github debemos ir a la web con nuestra cuenta,
     crear un repositorio nuevo y luego escribir en la terminal "git remote add origin direccionwebdelrepositorio"
-    luego escribimos "git push -u origin master" y aparece una ventana para logearse con tu cuenta de github.
+    entonces la dirección web queda guardad en origin.
+    Luego escribimos "git push -u origin master" y aparece una ventana para logearse con tu cuenta de github.
     pudiendo confirmar el acceso mediante el navegador. Una vez logeados, git tarda un poco en cargar los archivos
-    al repositorio y una vez terminado los tendremos en github.
+    al repositorio en la rama master y una vez terminado los tendremos en github.
 
 Finalmente, podemos obtener el código de un repositorio usando el comando
     "git clone direccionwebdelrepositorio" en la carpeta que queremos almacenarlo
-    
+
+Una vez obtenido los archivos, podemos hacer "git pull" para traernos cambios hechos por otros
+    y podemos usar "git push" para subir nuestros commits. Se pueden hacer los push a ramas específicas
+    usando "git push -u origin nombredelarama"

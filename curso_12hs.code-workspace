@@ -1,0 +1,9 @@
+{
+	"folders": [
+		{
+			"path": "." //podemos agregar otros path automaticamente
+		}
+	],
+	"settings": {
+	}
+}

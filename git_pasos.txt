@@ -1,0 +1,18 @@
+Vamos a la terminal, y en la carpeta del proyecto escribimos "git init"
+
+Escribimos "git status" para ver el estado de los archivos
+
+Con "git add nomrearchivo" agregamos un archivo a la zona de espera
+Si tenemos varios archivos escribimos "git add ." para agregarlos todos
+Sino vamos a las pestaña Source Control de VScode, opciones y apretamos "stage all changes"
+    y veremos que los archivos pasan de tener una U a una A
+
+VIENDO LA PESTAÑA SOURCE CONTROL PODEMOS HACER TODOS ESTOS MOVIMIENTOS
+
+Si se modifica un archivo, tendrá el tag de M (modificado). Una vez modificado
+    podremos darle git add para agregarlo o git restore para descartar los cambios
+
+Para hacer un primer commit primero debemos logearnos.
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"

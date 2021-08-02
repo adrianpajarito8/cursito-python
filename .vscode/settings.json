@@ -1,0 +1,9 @@
+{
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": false,
+    "python.autoComplete.extraPaths": [
+        
+        "${workspaceFolder}/curso_11",
+    ],
+    "python.formatting.provider": "autopep8"
+}

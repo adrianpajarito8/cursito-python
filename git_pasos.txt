@@ -56,3 +56,7 @@ Para subir nuestro proyecto, logs y braches a Github debemos ir a la web con nue
     luego escribimos "git push -u origin master" y aparece una ventana para logearse con tu cuenta de github.
     pudiendo confirmar el acceso mediante el navegador. Una vez logeados, git tarda un poco en cargar los archivos
     al repositorio y una vez terminado los tendremos en github.
+
+Finalmente, podemos obtener el código de un repositorio usando el comando
+    "git clone direccionwebdelrepositorio" en la carpeta que queremos almacenarlo
+    

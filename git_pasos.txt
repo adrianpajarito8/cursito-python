@@ -50,3 +50,9 @@ Si queremos desarrollar una version alternativa del programa podemos crear una n
     veremos una lista de las ramas y en cual estamos actualmente. Para crear una nueva
     escribimos "git branch nombreramanueva". Una vez creada podemos ir a esa rama 
     con "git checkout nombreramanueva" o volver al master con "git ckeckout master"
+
+Para subir nuestro proyecto, logs y braches a Github debemos ir a la web con nuestra cuenta,
+    crear un repositorio nuevo y luego escribir en la terminal "git remote add origin direccionwebdelrepositorio"
+    luego escribimos "git push -u origin master" y aparece una ventana para logearse con tu cuenta de github.
+    pudiendo confirmar el acceso mediante el navegador. Una vez logeados, git tarda un poco en cargar los archivos
+    al repositorio y una vez terminado los tendremos en github.

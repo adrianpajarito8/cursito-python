@@ -22,6 +22,7 @@ Ahora hacemos un "git commit". En este momento se abre un editor de texto.
     guardamos el archivo y lo cerramos. Automaticamente la terminal nos dice que se hizo
     el commit para la 'rama master'. Si damos un status, nos dice que no hay nada para
     hacer commit y que la rama master esta limpia.
+Sino podemos escribir git commit -m "Descripción del commit" (usar las comillas)
 
 gilada
 

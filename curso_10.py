@@ -18,7 +18,7 @@ os.system("cls")
 # Es un hilo de ejecucción que ejecutará su propio set de instrucciones
 # el multithread se usa para hacer varias tareas con cuasiparalelismo
 # y se ordenan por flags
-# Si el probrama o tarea espera basicamente entradas internas como
+# Si el programa o tarea espera basicamente entradas internas como
 # llamadas o interrupciones del CPU, es mejor usar multiprocessing.
 # Si la tarea aguarda por entradas externas como entradas
 # de usuario, se usa multithreading
@@ -110,7 +110,7 @@ respuesta = input("Queres salir?:\n")
 # aprovechamos los multinucleos de nuestros procesadores
 #agregamos: 'from multiprocessing import Process,cpu_count'
 
-# print(multiprocessing.cpu_count()) #vemos la cantidad de nucleos
+print("Este PC tiene un procesador con " + str(multiprocessing.cpu_count()) + " núcleos disponibles") #vemos la cantidad de nucleos
 # creamos un contador hasta x numero
 
 
